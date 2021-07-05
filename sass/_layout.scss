@@ -1,0 +1,141 @@
+.hero{
+
+    height: 100vh;
+    width: 100%;
+  
+
+
+    &__wrap{
+
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    &__container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+    
+    }
+
+    &__left{
+        flex: 0 0 45%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/3.jpg);
+
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        background-color: #14304D;
+        justify-content: space-around;
+        align-items: center;
+        flex: 0 0 55%;
+        color: #fff;
+        
+
+    }
+
+    .hero__info{
+        width: 100%;
+        // position: absolute;
+        display: flex;
+        flex: 0 0 45%;
+        justify-content: space-between;
+        align-items: center;
+
+   }
+
+    &__title{
+        display: flex;
+        align-items: flex-end;
+        flex: 0 0 50%;
+        width: 67rem;
+        left: 100rem;
+        top: 35rem; 
+        color: #EB5757;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 80px;
+    }
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    &__logo{
+
+        flex: 0 0 25%;
+        color: #fff;
+        position: absolute;
+        left: 60px;
+        top: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        font-style: normal;
+
+
+    }
+
+    &__nav{
+        position: absolute;
+        flex: 0 0 50%;
+        left: 77rem;
+
+    }
+
+    &__list{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        width: 500px;
+        height: 80px;
+      
+        background: #EB5757;
+    }
+
+    &__item{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+   &__link{
+       text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6rem;
+        line-height: 19px;
+        color: #fff;
+
+   }
+    &__icon-wrap{
+        position: absolute;
+        width: 6%;
+        flex: 0 0 25%;
+        right: 8rem;
+        top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        
+
+        
+
+    }
+}
